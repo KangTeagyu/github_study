@@ -182,3 +182,29 @@ Author: KangTeagyu <ktg0527@naver.com>
 ```
 
 - commit 로그 목록
+
+
+
+## 기본설정
+
+1. 로컬 git 저장소 준비
+2. github repository 생성
+3. repository default branch 변경
+
+## 명령어
+
+## 원격저장소 주소 추가
+
+``` bash
+#원격 저장소 주소 origin이라는 이름으로 추가할건데 주소는 이거야!
+$ git remote add origin https:// ~
+
+```
+
+
+
+## 원격 저장소 목록 보기
+
+``` bash
+$ git remote -v
+```
