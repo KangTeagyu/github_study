@@ -208,3 +208,35 @@ $ git remote add origin https:// ~
 ``` bash
 $ git remote -v
 ```
+
+
+
+## 원격 저장소에 업로드(push)
+
+``` bash
+$ git push -u origin main(master)
+
+#commit 내역 없으면 업로드 불가능
+#git아 origin이라는 이름으로 저장해둔 원격 저장소에 내용들 
+```
+
+
+
+## 원격 저장소 내용 전체 복제
+
+``` bash
+git clone {원격저장소 url}
+
+```
+
+
+
+## pull
+
+- 원격 저장소의 변경사항을 받아옴(업데이트)
+
+  ``` bash
+  $ git pull origin master
+  ```
+
+  
